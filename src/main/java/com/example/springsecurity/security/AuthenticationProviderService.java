@@ -35,9 +35,6 @@ public class AuthenticationProviderService implements AuthenticationProvider {
         String password = authentication.getCredentials().toString();
         CustomUserDetails user = userDetailsService.loadUserByUsername(username);
 
-        System.out.println(bCryptPasswordEncoder.encode(password));
-        System.out.println(user.getPassword());
-
         switch (user.getUser().getAlgorithm()) {
             case BCRYPT:
                 return checkPassword(user, password, bCryptPasswordEncoder);
