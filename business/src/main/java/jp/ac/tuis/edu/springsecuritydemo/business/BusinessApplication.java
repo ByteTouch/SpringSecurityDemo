@@ -1,13 +1,13 @@
-package com.example.springsecurity;
+package jp.ac.tuis.edu.springsecuritydemo.business;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringsecurityApplication {
+public class BusinessApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringsecurityApplication.class, args);
+		SpringApplication.run(BusinessApplication.class, args);
 	}
 
 }
