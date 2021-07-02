@@ -1,0 +1,14 @@
+spring:
+    application.name: springsecurity
+    datasource:
+        url: jdbc:mysql://localhost:3306/spring
+        username: root
+        password: letmein
+
+    sql:
+        init:
+            enabled: true
+
+    jpa:
+        hibernate:
+            ddl-auto: none
