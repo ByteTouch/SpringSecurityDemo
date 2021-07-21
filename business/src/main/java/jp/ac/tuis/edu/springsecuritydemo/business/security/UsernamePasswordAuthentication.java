@@ -10,15 +10,15 @@ public class UsernamePasswordAuthentication extends UsernamePasswordAuthenticati
     public UsernamePasswordAuthentication(
         Object principal,
         Object credentials,
-        Collection<? extends GrantedAuthority> authorities
-    ) {
+        Collection<? extends GrantedAuthority> authorities)
+    {
         super(principal, credentials, authorities);
     }
 
     public UsernamePasswordAuthentication(
         Object principal,
-        Object credentials
-    ) {
+        Object credentials)
+    {
         super(principal, credentials);
     }
 }

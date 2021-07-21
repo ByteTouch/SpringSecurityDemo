@@ -13,8 +13,8 @@ public class OtpAuthentication extends UsernamePasswordAuthentication {
     public OtpAuthentication(
         Object principal,
         Object credentials,
-        Collection<? extends GrantedAuthority> authorities
-    ) {
+        Collection<? extends GrantedAuthority> authorities)
+    {
         super(principal, credentials, authorities);
     }
 }

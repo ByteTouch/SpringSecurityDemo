@@ -9,6 +9,16 @@
             "mainClass": "jp.ac.tuis.edu.springsecuritydemo.authentication.SpringsecurityApplication",
             "projectName": "authentication",
             "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-BusinessApplication<business>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "jp.ac.tuis.edu.springsecuritydemo.business.BusinessApplication",
+            "projectName": "business",
+            "args": ""
         }
     ]
 }
